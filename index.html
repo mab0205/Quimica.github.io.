@@ -1,0 +1,2793 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tabela Periódica</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Trabalho de Química</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Tabela Periódica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Tabela Periódica</h1>
+                    <p>Clique em um dos elementos para ver suas informações</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row row-table">
+                <div class="col-md-12" style="text-align: center">
+                    <!-- REVIEW -->
+                    <img src="img/tabela.png" alt="Tabela Periódica" usemap="#tabela">
+
+                    <map name="tabela">
+                        <area alt="Hidrogênio" title="Hidrogênio" href="#" coords="6,7,54,54" shape="rect" data-toggle="modal" data-target="#modal1">
+                        <area alt="Hélio" title="Hélio" href="#" coords="923,8,972,56" shape="rect" data-toggle="modal" data-target="#modal2">
+                        <area alt="Lítio" title="Lítio" href="#" coords="6,60,54,107" shape="rect" data-toggle="modal" data-target="#modal3">
+                        <area alt="Berílio" title="Berílio" href="#" coords="60,60,108,107" shape="rect" data-toggle="modal" data-target="#modal4">
+                        <area alt="Boro" title="Boro" href="#" coords="654,60,702,107" shape="rect" data-toggle="modal" data-target="#modal5">
+                        <area alt="Carbono" title="Carbono" href="#" coords="708,59,756,106" shape="rect" data-toggle="modal" data-target="#modal6">
+                        <area alt="Nitrogênio" title="Nitrogênio" href="#" coords="762,59,810,106" shape="rect" data-toggle="modal" data-target="#modal7">
+                        <area alt="Oxigênio" title="Oxigênio" href="#" coords="816,60,864,107" shape="rect" data-toggle="modal" data-target="#modal8">
+                        <area alt="Flúor" title="Flúor" href="#" coords="870,60,918,107" shape="rect" data-toggle="modal" data-target="#modal9">
+                        <area alt="Neônio" title="Neônio" href="#" coords="924,60,972,107" shape="rect" data-toggle="modal" data-target="#modal10">
+                        <area alt="Sódio" title="Sódio" href="#" coords="6,112,54,159" shape="rect" data-toggle="modal" data-target="#modal11">
+                        <area alt="Magnésio" title="Magnésio" href="#" coords="60,111,108,158" shape="rect" data-toggle="modal" data-target="#modal12">
+                        <area alt="Alumínio" title="Alumínio" href="#" coords="654,111,702,158" shape="rect" data-toggle="modal" data-target="#modal13">
+                        <!-- Samuel -->
+                        <area alt="Silício" title="Silício" href="#" coords="708,111,756,158" shape="rect" data-toggle="modal" data-target="#modal14">
+                        <area alt="Fósforo" title="Fósforo" href="#" coords="762,111,810,158" shape="rect" data-toggle="modal" data-target="#modal15">
+                        <area alt="Enxofre" title="Enxofre" href="#" coords="816,112,864,159" shape="rect" data-toggle="modal" data-target="#modal16">
+                        <area alt="Cloro" title="Cloro" href="#" coords="870,111,918,158" shape="rect" data-toggle="modal" data-target="#modal17">
+                        <area alt="Argônio" title="Argônio" href="#" coords="923,112,971,159" shape="rect" data-toggle="modal" data-target="#modal18">
+                        <area alt="Potássio" title="Potássio" href="#" coords="6,163,54,210" shape="rect" data-toggle="modal" data-target="#modal19">
+                        <area alt="Cálcio" title="Cálcio" href="#" coords="60,163,108,210" shape="rect" data-toggle="modal" data-target="#modal20">
+                        <area alt="Escândio" title="Escândio" href="#" coords="114,163,162,210" shape="rect" data-toggle="modal" data-target="#modal21">
+                        <area alt="Titânio" title="Titânio" href="#" coords="168,163,216,210" shape="rect" data-toggle="modal" data-target="#modal22">
+                        <area alt="Vanádio" title="Vanádio" href="#" coords="222,164,270,211" shape="rect" data-toggle="modal" data-target="#modal23">
+                        <area alt="Cromo" title="Cromo" href="#" coords="276,163,324,210" shape="rect" data-toggle="modal" data-target="#modal24">
+                        <area alt="Manganês" title="Manganês" href="#" coords="330,163,378,210" shape="rect" data-toggle="modal" data-target="#modal25">
+                        <area alt="Ferro" title="Ferro" href="#" coords="384,163,432,210" shape="rect" data-toggle="modal" data-target="#modal26">
+                        <!-- Martin -->
+                        <area alt="Cobalto" title="Cobalto" href="#" coords="438,163,486,210" shape="rect" data-toggle="modal" data-target="#modal27">
+                        <area alt="Níquel" title="Níquel" href="#" coords="491,165,540,209" shape="rect" data-toggle="modal" data-target="#modal28">
+                        <area alt="Cobre" title="Cobre" href="#" coords="544,164,595,211" shape="rect" data-toggle="modal" data-target="#modal29">
+                        <area alt="Zinco" title="Zinco" href="#" coords="650,210,599,164" shape="rect" data-toggle="modal" data-target="#modal30">
+                        <area alt="Gálio" title="Gálio" href="#" coords="654,163,702,210" shape="rect" data-toggle="modal" data-target="#modal31">
+                        <area alt="Germànio" title="Germànio" href="#" coords="706,164,755,211" shape="rect" data-toggle="modal" data-target="#modal32">
+                        <area alt="Arsènio" title="Arsènio" href="#" coords="762,165,811,210" shape="rect" data-toggle="modal" data-target="#modal33">
+                        <area alt="Selènio" title="Selènio" href="#" coords="865,211,815,164" shape="rect" data-toggle="modal" data-target="#modal34">
+                        <area alt="Bromo" title="Bromo" href="#" coords="869,165,918,210" shape="rect" data-toggle="modal" data-target="#modal35">
+                        <area alt="Cripitònio" title="Cripitònio" href="#" coords="924,165,973,211,976,257" shape="rect" data-toggle="modal" data-target="#modal36">
+                        <area alt="Rubìdio" title="Rubìdio" href="#" coords="4,216,54,262" shape="rect" data-toggle="modal" data-target="#modal37">
+                        <area alt="Estrôncio" title="Estrôncio" href="#" coords="60,216,107,261" shape="rect" data-toggle="modal" data-target="#modal38">
+                        <area alt="Ítrio" title="Ítrio" href="#" coords="115,216,164,262" shape="rect" data-toggle="modal" data-target="#modal39">
+                        <area alt="Zircônio" title="Zircônio" href="#" coords="169,216,216,262" shape="rect" data-toggle="modal" data-target="#modal40">
+                        <!-- João -->
+                        <area alt="Nióbio" title="Nióbio" href="#" coords="223,216,271,262" shape="rect" data-toggle="modal" data-target="#modal41">
+                        <area alt="Molibdénio" title="Molibdénio" href="#" coords="277,216,324,262" shape="rect" data-toggle="modal" data-target="#modal42">
+                        <area alt="Tecnécio" title="Tecnécio" href="#" coords="331,215,378,262" shape="rect" data-toggle="modal" data-target="#modal43">
+                        <area alt="Rutênio" title="Rutênio" href="#" coords="385,216,433,262" shape="rect" data-toggle="modal" data-target="#modal44">
+                        <area alt="Ródio" title="Ródio" href="#" coords="438,216,486,263" shape="rect" data-toggle="modal" data-target="#modal45">
+                        <area alt="Paládio" title="Paládio" href="#" coords="493,216,540,262" shape="rect" data-toggle="modal" data-target="#modal46">
+                        <area alt="Prata" title="Prata" href="#" coords="547,216,594,262" shape="rect" data-toggle="modal" data-target="#modal47">
+                        <area alt="Cádmio" title="Cádmio" href="#" coords="600,216,649,262" shape="rect" data-toggle="modal" data-target="#modal48">
+                        <area alt="Índio" title="Índio" href="#" coords="655,216,703,262" shape="rect" data-toggle="modal" data-target="#modal49">
+                        <area alt="Estanho" title="Estanho" href="#" coords="709,214,757,261" shape="rect" data-toggle="modal" data-target="#modal50">
+                        <area alt="Antimônio" title="Antimônio" href="#" coords="763,215,810,261" shape="rect" data-toggle="modal" data-target="#modal51">
+                        <area alt="Telúrio" title="Telúrio" href="#" coords="817,216,865,263" shape="rect" data-toggle="modal" data-target="#modal52">
+                        <area alt="Iodo" title="Iodo" href="#" coords="871,215,919,262" shape="rect" data-toggle="modal" data-target="#modal53">
+                        <area alt="Xenônio" title="Xenônio" href="#" coords="924,215,973,262" shape="rect" data-toggle="modal" data-target="#modal54">
+                    </map>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal 1 -->
+        <div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Hidrogênio</h2>
+                                    <img src="img/hidrogenio.png" alt="Hidrogênio" title="Hidrogênio">
+                                    <p>O hidrogênio (símbolo químico H, número atômico 1) é o elemento químico mais leve e o mais abundante de todos os elementos, constituindo aproximadamente 75% da massa elementar do universo. Estrelas são compostas principalmente de hidrogênio em seu estado de plasma.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>1,00794(7) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>1s¹</p>
+                                    <h5>Elétrons</h5>
+                                    <p>1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>14,025 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>20,268 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>0,05868 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>0,44936 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>1,14×10–⁵ m³/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 1 -->
+
+        <!-- modal 2 -->
+        <div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Hélio</h2>
+                                    <img src="img/helio.png" alt="Hélio" title="Hélio">
+                                    <p>Hélio (símbolo químico He, número atômico 2) é um componente secundário da atmosfera da Terra, mas é o segundo elemento mais abundante no universo e o segundo mais leve de todos os elementos conhecidos.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>4,002602(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>1s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>453 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1615 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>3 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>145,92 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 2 -->
+
+        <!-- modal 3 -->
+        <div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Lítio</h2>
+                                    <img src="img/litio.png" alt="Lítio" title="Lítio">
+                                    <p>Lítio (símbolo químico Li, número atômico 3) é o elemento químico sólido mais leve e um membro do grupo de elementos conhecidos como metais alcalinos. É inflamável, corrosivo para a pele e reage prontamente com a água e o ar.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>6,941(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>1s² 2s¹</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>0,95 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>4,22 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>5,23 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>0,0845 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 3 -->
+
+        <!-- modal 4 -->
+        <div class="modal fade bd-example-modal-lg" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Berílio</h2>
+                                    <img src="img/berilio.png" alt="Berílio" title="Berílio">
+                                    <p>O berílio (símbolo químico Be, número atômico 4) está entre os mais leves de todos os metais conhecidos. De cor cinza-aço, é forte, mas quebradiço. É classificado como metal alcalino-terroso, juntamente com cálcio e magnésio.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>9,012182(3) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>1s² 2s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1560 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2744 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>12,20 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>292,40 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 4 -->
+
+        <!-- modal 5 -->
+        <div class="modal fade bd-example-modal-lg" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Boro</h2>
+                                    <img src="img/boro.png" alt="Boro" title="Boro">
+                                    <p>O boro (símbolo químico B, número atômico 5) é um elemento químico classificado como metalóide – suas propriedades químicas são intermediárias entre as dos metais e dos não metais.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>10,811(7) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>1s² 2s² 2p¹</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 3</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2348 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>4273 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>50,2 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>489,7 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 5 -->
+
+        <!-- modal 6 -->
+        <div class="modal fade bd-example-modal-lg" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Carbono</h2>
+                                    <img src="img/carbono.png" alt="Carbono" title="Carbono">
+                                    <p>Carbono (símbolo químico C, número atômico 6) é um elemento químico que desempenha um papel vital nas estruturas e processos dos mundos vivos e não-vivos. Sem isso, nossa existência física e a de outros organismos não seriam possíveis. O carbono recebe o nome da palavra latina “carbo”, que significa carvão.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>12,0107(8) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[He] 2s² 2p²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 4</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>355,8 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 6 -->
+
+        <!-- modal 7 -->
+        <div class="modal fade bd-example-modal-lg" id="modal7" tabindex="-1" role="dialog" aria-labelledby="modal7" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Nitrogênio</h2>
+                                    <img src="img/nitrogenio.png" alt="Nitrogênio" title="Nitrogênio">
+                                    <p>O nitrogênio (símbolo N, número atômico 7) é o principal constituinte da atmosfera da Terra e um elemento vital em todas as formas conhecidas de vida. Em temperaturas e pressões normais, nitrogênio livre (não ligado a qualquer outro elemento) é um líquido incolor, inodoro, insípido e em forma de gás.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>14,0067(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[He] 2s² 2p³</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 5</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>63,15 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>75,36 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>0,3604 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>2,7928 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 7 -->
+
+        <!-- modal 8 -->
+        <div class="modal fade bd-example-modal-lg" id="modal8" tabindex="-1" role="dialog" aria-labelledby="modal8" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Oxigênio</h2>
+                                    <img src="img/oxigenio.png" alt="Oxigênio" title="Oxigênio">
+                                    <p>O oxigênio (símbolo químico O , número atômico 8) é o segundo elemento mais comum na Terra e o terceiro elemento mais comum no universo.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>15,9994(3) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>2s² 2p⁴</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 6</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>50,35 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>90,18 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>0,22259 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>3,4099 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 8 -->
+
+        <!-- modal 9 -->
+        <div class="modal fade bd-example-modal-lg" id="modal9" tabindex="-1" role="dialog" aria-labelledby="modal9" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Flúor</h2>
+                                    <img src="img/fluor.png" alt="Flúor" title="Flúor">
+                                    <p>O flúor (símbolo químico F, número atômico 9) é um não-metal que pertence a um grupo de elementos químicos conhecidos como halogênios. Quimicamente, é o mais reativo e eletronegativo de todos os elementos.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>18,9984032(5) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>2s² 2p⁵</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 7</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>53,53 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>85,03 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>0,2552 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>3,2698 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 9 -->
+
+        <!-- modal 10 -->
+        <div class="modal fade bd-example-modal-lg" id="modal10" tabindex="-1" role="dialog" aria-labelledby="modal10" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Neônio</h2>
+                                    <img src="img/neonio.png" alt="Neônio" title="Neônio">
+                                    <p>Néon (símbolo químico Ne, número atômico 10) é o quarto elemento químico mais abundante no universo, mas é apenas um elemento-traço no ar.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>20,1797(6) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[He] 2s² 2p⁶</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>24,56 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>27,07 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>0,3317 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>1,7326 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 10 -->
+
+        <!-- modal 11 -->
+        <div class="modal fade bd-example-modal-lg" id="modal11" tabindex="-1" role="dialog" aria-labelledby="modal11" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Sódio</h2>
+                                    <img src="img/sodio.png" alt="Sódio" title="Sódio">
+                                    <p>Sódio (símbolo químico Na, número atômico 11) é um membro de um grupo de elementos químicos conhecidos como metais alcalinos. De cor prateada, é macio, ceroso e leve.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>22,98976928(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ne] 3s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>370,95 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1156 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>2,598 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>96,96 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 11 -->
+
+        <!-- modal 12 -->
+        <div class="modal fade bd-example-modal-lg" id="modal12" tabindex="-1" role="dialog" aria-labelledby="modal12" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Magnésio</h2>
+                                    <img src="img/magnesio.png" alt="Magnésio" title="Magnésio">
+                                    <p>O magnésio (símbolo químico Mg, número atômico 12) é o oitavo elemento químico mais abundante na crosta terrestre, sendo um metal muito leve e resistente.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>24,3050(6) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 2</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>923 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1363 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>8,954 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>127,4 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 12 -->
+
+        <!-- modal 13 -->
+        <div class="modal fade bd-example-modal-lg" id="modal13" tabindex="-1" role="dialog" aria-labelledby="modal13" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Alumínio</h2>
+                                    <img src="img/aluminio.png" alt="Alumínio" title="Alumínio">
+                                    <p>Alumínio (símbolo químico Al, número atômico é 13) é um metal macio e leve com uma aparência prateada e a capacidade de resistir à corrosão. É o elemento metálico mais abundante na crosta da Terra.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>26,9815386(8) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ne] 3s² 3p¹</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 3</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>933,47 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2792 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>10,79 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>293,4 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 13 -->
+
+        <!-- modal 14 -->
+        <div class="modal fade bd-example-modal-lg" id="modal14" tabindex="-1" role="dialog" aria-labelledby="modal14" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Silício</h2>
+                                    <img src="img/silicio.png" alt="Silício" title="Silício">
+                                    <p>O silício (elemento químico símbolo Si, número atômico 14) é um membro de um grupo de elementos químicos classificados como metalóides.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>28,0855(3) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3s2 3p2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 4</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1687 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3538 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>50,55 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>384,22 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 14 -->
+
+        <!-- modal 15 -->
+        <div class="modal fade bd-example-modal-lg" id="modal15" tabindex="-1" role="dialog" aria-labelledby="modal15" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Fósforo</h2>
+                                    <img src="img/fosforo.png" alt="Fósforo" title="Fósforo">
+                                    <p>Fósforo (símbolo químico P, número atômico 15) é um não-metal multivalente que pertence ao grupo de compostos nitrogenados. Dada a sua alta reatividade, nunca é encontrado como um elemento livre na natureza.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>30,973762(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3s2 3p3</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 5</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>317,3 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>553,6 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>0,657 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>12,129 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 15 -->
+
+        <!-- modal 16 -->
+        <div class="modal fade bd-example-modal-lg" id="modal16" tabindex="-1" role="dialog" aria-labelledby="modal16" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Enxofre</h2>
+                                    <img src="img/enxofre.png" alt="Enxofre" title="Enxofre">
+                                    <p>O enxofre é um elemento químico de símbolo S, com número atômico 16 e massa atômica 32 u.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>32,065(5) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3s2 3p4</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 6</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>388,36 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>717,75 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>1,7175 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>15,53×10−6 m3/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 16 -->
+
+        <!-- modal 17 -->
+        <div class="modal fade bd-example-modal-lg" id="modal17" tabindex="-1" role="dialog" aria-labelledby="modal17" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cloro</h2>
+                                    <img src="img/cloro.png" alt="Cloro" title="Cloro">
+                                    <p>O cloro (símbolo químico Cl, número atômico 17) é um não-metal que pertence a um grupo de elementos químicos conhecidos como halogênios.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>35,453(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3s2 3p5</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 7</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>171,6 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>239,11 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>3,203 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>10,2 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 17 -->
+
+        <!-- modal 18 -->
+        <div class="modal fade bd-example-modal-lg" id="modal18" tabindex="-1" role="dialog" aria-labelledby="modal18" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Argônio</h2>
+                                    <img src="img/argonio.png" alt="Argônio" title="Argônio">
+                                    <p>O argônio (símbolo químico Ar, número atômico 18) é um membro da família dos gases nobres. Está presente na atmosfera da Terra a pouco menos de um por cento (em volume), tornando-se o gás nobre mais comum na Terra.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>39,948(1) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3s2 3p6</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 8</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>83,80 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>87,30 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>1,188 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>6,447 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 18 -->
+
+        <!-- modal 19 -->
+        <div class="modal fade bd-example-modal-lg" id="modal19" tabindex="-1" role="dialog" aria-labelledby="modal19" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Potássio</h2>
+                                    <img src="img/potassio.png" alt="Potássio" title="Potássio">
+                                    <p>O potássio (símbolo químico K, número atômico 19) é membro de um grupo de elementos químicos conhecidos como metais alcalinos. É um metal macio, de cor branco-prateado quando recém cortado, mas mancha rapidamente quando é exposto ao ar.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>39,0983(1) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>4s¹</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 8, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>336,53 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1032 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>2,334 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>79,87 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 19 -->
+
+        <!-- modal 20 -->
+        <div class="modal fade bd-example-modal-lg" id="modal20" tabindex="-1" role="dialog" aria-labelledby="modal20" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cálcio</h2>
+                                    <img src="img/calcio.png" alt="Cálcio" title="Cálcio">
+                                    <p>Cálcio (símbolo químico Ca, número atômico 20) é o quinto mais abundante elemento químico na crosta terrestre, ocorrendo em várias rochas, minerais, corais e conchas de animais marinhos. De cor cinza suave, é classificado como metal alcalino-terroso.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>40,078(4) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>4s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 8, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1115 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1757 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>8,54 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>153,6 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 20 -->
+
+        <!-- modal 21 -->
+        <div class="modal fade bd-example-modal-lg" id="modal21" tabindex="-1" role="dialog" aria-labelledby="modal21" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Escândio</h2>
+                                    <img src="img/escandio.png" alt="Escândio" title="Escândio">
+                                    <p>O escândio (símbolo químico Sc, número atômico 21) é um metal macio, de cor branco-prateado. O minério de escândio ocorre em minerais raros da Escandinávia e pouquíssimos lugares ao redor do mundo.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>44,955912 u ± 0,000006 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3d¹4s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 9, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1814 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3109 K </p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>14,1 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>314.2 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 21 -->
+
+        <!-- modal 22 -->
+        <div class="modal fade bd-example-modal-lg" id="modal22" tabindex="-1" role="dialog" aria-labelledby="modal22" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Titânio</h2>
+                                    <img src="img/titanio.png" alt="Titânio" title="Titânio">
+                                    <p>O titânio (símbolo químico Ti, número atômico 22) é um metal branco-prateado e brilhante. Leve e forte, é resistente à corrosão, incluindo a corrosão pela água do mar e cloro.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>47,867(1) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3d2 4s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 10, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1941 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3560 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>15,45 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>421 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 22 -->
+
+        <!-- modal 23 -->
+        <div class="modal fade bd-example-modal-lg" id="modal23" tabindex="-1" role="dialog" aria-labelledby="modal23" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Vanádio</h2>
+                                    <img src="img/vanadio.png" alt="Vanádio" title="Vanádio">
+                                    <p>O vanádio (símbolo químico V , número atômico 23) é um metal cinza prateado raro. Encontra-se combinado em vários minerais e é um dos 26 elementos que comumente ocorrem nos seres vivos.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>50,9415(1) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3d3 4s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 11, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2183 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3680 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>21,5 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>459 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 23 -->
+
+        <!-- modal 24 -->
+        <div class="modal fade bd-example-modal-lg" id="modal24" tabindex="-1" role="dialog" aria-labelledby="modal24" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cromo</h2>
+                                    <img src="img/cromo.png" alt="Cromo" title="Cromo">
+                                    <p>O cromo (símbolo químico Cr, número atômico 24) é um metal duro, brilhante, de coloração aço-cinza, que não mancha. É, portanto, usado em ligas, como aço inoxidável e cromado. O corpo humano precisa de traços de cromo trivalente para o metabolismo do açúcar, mas o cromo hexavalente é muito tóxico.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>51,9961(6) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3d5 4s1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 13, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2180 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2944 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>21 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>339,5 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 24 -->
+
+        <!-- modal 25 -->
+        <div class="modal fade bd-example-modal-lg" id="modal25" tabindex="-1" role="dialog" aria-labelledby="modal25" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Manganês</h2>
+                                    <img src="img/manganes.png" alt="Manganês" title="Manganês">
+                                    <p>O manganês (símbolo químico Mn, número atômico 25) é um metal cinza-branco que combina com outros elementos em várias proporções. Na natureza, ocorre principalmente sob a forma de um óxido castanho-preto, que foi usado como pigmento de tinta 17 mil anos atrás.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>54,938045(5) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>4s2 3d5</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 13, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1519 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2334 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>12,91 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>221 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 25 -->
+
+        <!-- modal 26 -->
+        <div class="modal fade bd-example-modal-lg" id="modal26" tabindex="-1" role="dialog" aria-labelledby="modal26" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Ferro</h2>
+                                    <img src="img/ferro.png" alt="Ferro" title="Ferro">
+                                    <p>O ferro (símbolo químico Fe, número atômico 26) é o primeiro elemento na oitava coluna da tabela periódica. É classificado como um metal de transição sendo que os átomos de ferro têm 26 elétrons e 26 prótons com 30 nêutrons que ocorrem no isótopo mais abundante. É o sexto elemento mais abundante no universo.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>55,845(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>3d6 4s²</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 14, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>Sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1811 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3134 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>13,8 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>349,6 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 26 -->
+
+        <!-- Martin modal 27 -->
+        <div class="modal fade bd-example-modal-lg" id="modal27" tabindex="-1" role="dialog" aria-labelledby="modal27" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cobalto</h2>
+                                    <img src="img/cobalto.png" alt="Cobalto" title="Cobalto">
+                                    <p>O Cobalto não é encontrado como um metal livre, mas é encontrado na forma de minérios. Geralmente é produzido como um subproduto das atividades de mineração de níquel e cobre</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>58,933195(5) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p> [Ar] 3d7 4s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 15, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1768 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3200 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>16,06 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>377 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>6.62×10-6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 27 -->
+        <!-- modal 28 -->
+        <div class="modal fade bd-example-modal-lg" id="modal28" tabindex="-1" role="dialog" aria-labelledby="modal28" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Níquel</h2>
+                                    <img src="img/niquel.png" alt="Níquel" title="Níquel">
+                                    <p>O níquel é um dos poucos elementos que é magnético à temperatura ambiente. O níquel pode ser polido até brilhar e resiste à corrosão. Também é um excelente condutor de eletricidade e calor.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>58,6934(4) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ar] 4s1 3d9</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 17, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1728 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3186 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>17,48 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>377,5 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>6.5888×10-6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 28 -->
+        <!-- modal 29 -->
+        <div class="modal fade bd-example-modal-lg" id="modal29" tabindex="-1" role="dialog" aria-labelledby="modal29" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cobre</h2>
+                                    <img src="img/niquel.png" alt="Níquel" title="Níquel">
+                                    <p>Em sua forma iônica, o cobre é um elemento essencial para plantas e animais, assim como para o corpo humano. O cobre era um recurso importante para os primeiros gregos e romanos.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>63,546 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ar] 3d10 4s1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1357,77 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2835 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>13,26 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>300,4 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>7,11×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 29 -->
+        <!-- modal 30 -->
+        <div class="modal fade bd-example-modal-lg" id="modal30" tabindex="-1" role="dialog" aria-labelledby="modal30" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Zinco</h2>
+                                    <img src="img/zinco.png" alt="Zinco" title="Zinco">
+                                    <p>O zinco é um metal branco-azulado que é encontrado em minérios em muitas partes do mundo. Considerado um dos elementos essenciais para organismos vivos.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>65,38(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ar] 3d10 4s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>692,68 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1180 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>7,32 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>123,6 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>9,16×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 30 -->
+        <!-- modal 31 -->
+        <div class="modal fade bd-example-modal-lg" id="modal31" tabindex="-1" role="dialog" aria-labelledby="modal31" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Gálio</h2>
+                                    <img src="img/galio.png" alt="Gálio" title="Gálio">
+                                    <p>Gálio é um metal prateado, raro e macio. É um sólido frágil a baixas temperaturas, mas se liquefaz ligeiramente acima da temperatura ambiente e derrete na mão.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>69,723 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p> [Ar] 4s2 3d10 4p1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 3</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>302,9146 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2477 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>5,59 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p> 254 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>11,80×10-6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 31 -->
+        <!-- modal 32 -->
+        <div class="modal fade bd-example-modal-lg" id="modal32" tabindex="-1" role="dialog" aria-labelledby="modal32" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Germànio</h2>
+                                    <img src="img/germanio.png" alt="Germànio" title="Germànio">
+                                    <p>O germânioé um elemento químico brilhante, duro e com cor branco-acinzentado. É classificado como metalóide – isto é, suas propriedades químicas são intermediárias entre as dos metais e dos não metais. É um material semicondutor valioso.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>72,64 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p> [Ar] 4s2 3d10 4p2</p>
+                                    <h5>Elétrons</h5>
+                                    <p> 2, 8, 18, 4</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1211,40 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3106 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>36,94 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p> 334 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>13,63×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 32 -->
+        <!-- modal 33 -->
+        <div class="modal fade bd-example-modal-lg" id="modal33" tabindex="-1" role="dialog" aria-labelledby="modal33" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Arsènio</h2>
+                                    <img src="img/arsenio.png" alt="Arsènio" title="Arsènio">
+                                    <p>O arsênio é um semimetal encontrado no grupo 15 da tabela periódica. Praticamente todo o consumo mundial, cerca de 70%, é destinado à conservação de madeira, em uma fórmula de arseniato de cobre e crômio.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>74,9216 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p> [Ar] 3d10 4s2 4p3</p>
+                                    <h5>Elétrons</h5>
+                                    <p> 2, 8, 18, 5</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1090,15 K (816,8 °C)</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>886,15 K (613,0 °C)</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>24,44 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>34,76 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>12,95×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 33 -->
+        <!-- modal 34 -->
+        <div class="modal fade bd-example-modal-lg" id="modal34" tabindex="-1" role="dialog" aria-labelledby="modal34" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Selènio</h2>
+                                    <img src="img/selenio.png" alt="Selènio" title="Selènio">
+                                    <p>O selênio é um elemento químico que é classificado como não metal. É quimicamente relacionado ao enxofre e ao telúrio.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>78,96 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ar] 4s2 3d10 4p4</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 6</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>494 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>958 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>6,69 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>95,48 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>16,42×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 34 -->
+        <!-- modal 35 -->
+        <div class="modal fade bd-example-modal-lg" id="modal35" tabindex="-1" role="dialog" aria-labelledby="modal35" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Bromo</h2>
+                                    <img src="img/bromo.png" alt="Bromo" title="Bromo">
+                                    <p>O bromo é um não metal que pertence a um grupo de elementos químicos conhecidos como halogênios. É o único elemento não metálico líquido à temperatura ambiente e um dos cinco elementos que são líquidos à temperatura ambiente ou próximo dela. </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>79,904 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>4s2 3d10 4p5</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 7</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>líquido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>265,8 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>332 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>10,571 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>29,96 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>19,78×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 35 -->
+        <!-- modal 36 -->
+        <div class="modal fade bd-example-modal-lg" id="modal36" tabindex="-1" role="dialog" aria-labelledby="modal36" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cripitònio</h2>
+                                    <img src="img/cripitonio.png" alt="Cripitònio" title="Cripitònio">
+                                    <p>Criptônio é um gás nobre incolor, inodoro e insípido. É um gás raro, sendo encontrado em pequenas quantidades na atmosfera. O criptônio é inerte para propósitos mais práticos, mas sabe-se que forma compostos com flúor. </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>83,798 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Ar] 3d10 4s2 4p6</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 8</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>gasoso</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>115,79 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>119,93 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>1,64 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>9,08 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 36 -->
+        <!-- modal 37 -->
+        <div class="modal fade bd-example-modal-lg" id="modal37" tabindex="-1" role="dialog" aria-labelledby="modal37" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Rubìdio</h2>
+                                    <img src="img/rubidio.png" alt="Rubìdio" title="Rubìdio">
+                                    <p>Rb-87, um isótopo que ocorre naturalmente, é levemente radioativo. O rubídio é muito macio e altamente reativo, com propriedades semelhantes a outros elementos do grupo um, como a rápida oxidação no ar. </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>85,4678(3) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 5s1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 8, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>312,46 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>961 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>2,192 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>72,216 kJ/moll</p>
+                                    <h5>Volume molar</h5>
+                                    <p>55,76×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 37 -->
+        <!-- modal 38 -->
+        <div class="modal fade bd-example-modal-lg" id="modal38" tabindex="-1" role="dialog" aria-labelledby="modal38" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Estrôncio</h2>
+                                    <img src="img/estroncio.png" alt="Estrôncio" title="Estrôncio">
+                                    <p>O estrôncio é um elemento metálico, macio, branco-prateado, que ocorre naturalmente nos minerais celestita e estroncianita. Altamente reativo quimicamente, é convertido em seu óxido amarelado quando exposto ao ar. </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>87,62(1) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 5s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 8, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1050 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1655 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>8,3 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>144 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>33,94×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 38 -->
+        <!-- modal 39 -->
+        <div class="modal fade bd-example-modal-lg" id="modal39" tabindex="-1" role="dialog" aria-labelledby="modal39" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Ítrio</h2>
+                                    <img src="img/itrio.png" alt="Ítrio" title="Ítrio">
+                                    <p>O ítrio (símbolo químico Y , número atômico 39) é um metal prateado brilhante que é encontrado na maioria dos minerais de terras raras. É relativamente estável no ar, mas sua forma finamente dividida é altamente instável no ar. </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>88,90584(2) u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d1 5s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 9, 22</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1799 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3609 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>11,42 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>365 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p>19,88×10−6 m/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 39 -->
+        <!-- modal 40 -->
+        <div class="modal fade bd-example-modal-lg" id="modal40" tabindex="-1" role="dialog" aria-labelledby="modal40" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Zircônio</h2>
+                                    <img src="img/zirconio.png" alt="Zircônio" title="Zircônio">
+                                    <p>O ítrio (símbolo químico Y , número atômico 39) é um metal prateado brilhante que é encontrado na maioria dos minerais de terras raras. É relativamente estável no ar, mas sua forma finamente dividida é altamente instável no ar. </p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>91,224 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 5s2 4d2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 10, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2128 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>4682 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>14 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>573 kJ/mol</p>
+                                    <h5>Volume molar</h5>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 40 -->
+
+
+
+
+
+
+        <!-- Joao modal 41 -->
+        <div class="modal fade bd-example-modal-lg" id="modal41" tabindex="-1" role="dialog" aria-labelledby="modal41" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Nióbio</h2>
+                                    <img src="img/molibdenio.png" alt="Nióbio" title="Nióbio">
+                                    <p>Nióbio é um metal cinzento, raro e macio. Foi descoberto em uma variedade de Niobita e foi inicialmente nomeado em homenagem a este mineral. É usado em ligas para aços especiais e juntas soldadas. Em temperaturas extremamente baixas, ele age como um supercondutor.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>92,90638 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d4 5s1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 12, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2750 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>5017 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>30 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>689,9 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 41 -->
+
+        <!-- modal 42 -->
+        <div class="modal fade bd-example-modal-lg" id="modal42" tabindex="-1" role="dialog" aria-labelledby="modal42" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Molibdênio</h2>
+                                    <img src="img/molibdenio.png" alt="Molibdênio" title="Molibdênio">
+                                    <p>Molibdênio é um metal branco prateado e macio. Tem um dos pontos de fusão mais altos de todos os elementos puros. É usado principalmente em ligas, especialmente para fazer aços de alta resistência e alta temperatura.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>95,96 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 5s1 4d5</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 13, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2436 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>4912 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>37,48 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>598 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 42 -->
+
+        <!-- modal 43 -->
+        <div class="modal fade bd-example-modal-lg" id="modal43" tabindex="-1" role="dialog" aria-labelledby="modal43" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Tecnécio</h2>
+                                    <img src="img/tecnecio.png" alt="Tecnécio" title="Tecnécio">
+                                    <p>Tecnécio é um metal cristalino, prateado e radioativo. Sua aparência é semelhante à platina, mas é comumente obtida como um pó cinza. Seu isótopo de curta duração é usado em medicina nuclear para uma ampla variedade de testes diagnósticos.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>98 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d5 5s2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 13, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2430 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>4538 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>24 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>660 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 43 -->
+
+        <!-- modal 44 -->
+        <div class="modal fade bd-example-modal-lg" id="modal44" tabindex="-1" role="dialog" aria-labelledby="modal44" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Rutênio</h2>
+                                    <img src="img/rutenio.png" alt="Rutênio" title="Rutênio">
+                                    <p>Rutênio é um elemento químico do grupo 8 ou grupo do ferro da classificação periódica dos elementos. O nome é proveniente do latim Ruthenia, que significa “Rússia”.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>101,07 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>4d7 5s1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 15, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2607 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>4423 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>24 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>595 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 44 -->
+
+        <!-- modal 45 -->
+        <div class="modal fade bd-example-modal-lg" id="modal45" tabindex="-1" role="dialog" aria-labelledby="modal45" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Ródio</h2>
+                                    <img src="img/rodio.png" alt="Ródio" title="Ródio">
+                                    <p>Ródio é um metal inerte, branco prateado e raro. É um membro do grupo de elementos da platina e é encontrado justamente em minérios de platina. Como o metal precioso mais caro, é um símbolo de riqueza e é usado ocasionalmente na apresentação de altas honrarias.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>102,90550 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 5s1 4d8</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 16, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>2237 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3968 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>21,5 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>493 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 45 -->
+
+        <!-- modal 46 -->
+        <div class="modal fade bd-example-modal-lg" id="modal46" tabindex="-1" role="dialog" aria-labelledby="modal46" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Paládio</h2>
+                                    <img src="img/paladio.png" alt="Paládio" title="Paládio">
+                                    <p>Paládio é um metal branco-prateado e raro. Ele é um membro dos metais de transição e assemelha-se a platina quimicamente. É extraído de alguns minérios de cobre e níquel. O paládio tem a capacidade incomum de absorver grandes quantidades de gás hidrogênio, expandindo-se visivelmente ao fazê-lo.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>106,42 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1828,05 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>3236 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>17,6 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>357 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 46 -->
+
+
+        <!-- modal 47 -->
+        <div class="modal fade bd-example-modal-lg" id="modal47" tabindex="-1" role="dialog" aria-labelledby="modal47" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Prata</h2>
+                                    <img src="img/prata.png" alt="Prata" title="Prata">
+                                    <p>Prata é um metal macio com um brilho branco brilhante que pode ter um alto grau de polimento. Juntamente com cobre e ouro, é um dos metais de cunhagem. Também é considerado um metal nobre – um metal que resiste à corrosão.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>107,8682 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10 5s1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 1</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>1234,93 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2435 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>11,28 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>258 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 47 -->
+
+        <!-- modal 48 -->
+        <div class="modal fade bd-example-modal-lg" id="modal48" tabindex="-1" role="dialog" aria-labelledby="modal48" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Cádmio</h2>
+                                    <img src="img/cadmio.png" alt="Cádmio" title="Cádmio">
+                                    <p>Cádmio é um metal relativamente raro, macio e branco-azulado. Suas propriedades químicas são semelhantes às do zinco, além de ser encontrado com frequência em minérios desse elemento.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>112,411 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 5s2 4d10</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 2</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>594,22 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1040 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>6,192 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>100 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 48 -->
+
+
+        <!-- modal 49 -->
+        <div class="modal fade bd-example-modal-lg" id="modal49" tabindex="-1" role="dialog" aria-labelledby="modal49" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Indio</h2>
+                                    <img src="img/indio.png" alt="Índio" title="Índio">
+                                    <p>Índio é um metal raro, macio, maleável e facilmente fusível. É quimicamente similar ao alumínio e gálio e os minérios de zinco também são a principal fonte deste metal.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>114,818 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10 5s2 5p1</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 3</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>429,7485 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2345 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>3,263 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>231,5 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 49 -->
+
+        <!-- modal 50 -->
+        <div class="modal fade bd-example-modal-lg" id="modal50" tabindex="-1" role="dialog" aria-labelledby="modal50" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Estanho</h2>
+                                    <img src="img/estanho.png" alt="Estanho" title="Estanho">
+                                    <p>Estanho é um metal prateado maleável que não é facilmente oxidado no ar e resiste à corrosão. É obtido principalmente da cassiterita mineral, na qual ocorre como um óxido.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>118,710 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10 5s2 5p2</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 4</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>505,08 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2875 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>7,03 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>296,1 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 50 -->
+
+        <!-- modal 51 -->
+        <div class="modal fade bd-example-modal-lg" id="modal51" tabindex="-1" role="dialog" aria-labelledby="modal51" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Antimônio</h2>
+                                    <img src="img/antimonio.png" alt="Antimônio" title="Antimônio">
+                                    <p>Antimônio é um elemento químico de símbolo Sb de número atômico 51 (51 prótons e 51 elétrons) e de massa atômica igual a 121,75 u.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- TODO  -->
+                                    <h5>Massa atômica</h5>
+                                    <p>121,7600 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr]4d10 5s2 5p3</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 4</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>505,08 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>2875 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>7,03 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>296,1 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 51 -->
+
+        <!-- modal 52 -->
+        <div class="modal fade bd-example-modal-lg" id="modal52" tabindex="-1" role="dialog" aria-labelledby="modal52" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Telúrio</h2>
+                                    <img src="img/telurio.png" alt="Telúrio" title="Telúrio">
+                                    <p>Telúrio é um elemento químico relativamente raro que pertence ao grupo dos metaloides – suas propriedades químicas são intermediárias entre as dos metais e dos não-metais.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h5>Massa atômica</h5>
+                                    <p>127,60 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10 5s2 5p4</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 6</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>722,66 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1261 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>17,49 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>114,1 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 52 -->
+
+        <!-- modal 53 -->
+        <div class="modal fade bd-example-modal-lg" id="modal53" tabindex="-1" role="dialog" aria-labelledby="modal53" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Iodo</h2>
+                                    <img src="img/iodo.png" alt="Iodo" title="Iodo">
+                                    <p>Iodo é um não-metal que pertence a um grupo de elementos químicos conhecidos como halogênios. Em temperaturas e pressões comuns, é um sólido que prontamente sublima, isto é, vai diretamente da fase sólida para a fase gasosa.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- TODO  -->
+                                    <h5>Massa atômica</h5>
+                                    <p>127,60 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10 5s2 5p4</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 6</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>722,66 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1261 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>17,49 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>114,1 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 53 -->
+
+        <!-- modal 54 -->
+        <div class="modal fade bd-example-modal-lg" id="modal54" tabindex="-1" role="dialog" aria-labelledby="modal54" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header  board-modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body board-modal-body">
+                        <div class="container-fluid">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <h2 class="modal-title board-modal-h2">Xenônio</h2>
+                                    <img src="img/xenonio.png" alt="Xenônio" title="Xenônio">
+                                    <p>Xenônio é um gás nobre, incolor, inodoro e pesado que ocorre na atmosfera da Terra em pequenas quantidades. Foi o primeiro gás nobre a partir do qual um composto foi sintetizado com sucesso.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <!-- TODO  -->
+                                    <h5>Massa atômica</h5>
+                                    <p>127,60 u</p>
+                                    <h5>Configuração eletrônica</h5>
+                                    <p>[Kr] 4d10 5s2 5p4</p>
+                                    <h5>Elétrons</h5>
+                                    <p>2, 8, 18, 18, 6</p>
+                                    <h5>Estado da matéria</h5>
+                                    <p>sólido</p>
+                                    <h5>Ponto de fusão</h5>
+                                    <p>722,66 K</p>
+                                    <h5>Ponto de ebulição</h5>
+                                    <p>1261 K</p>
+                                    <h5>Entalpia de fusão</h5>
+                                    <p>17,49 kJ/mol</p>
+                                    <h5>Entalpia de vaporização</h5>
+                                    <p>114,1 kJ/mol</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end modal 54 -->
+
+
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="plugins/jquery.rwdImageMaps.min.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
+</body>
+
+</html>

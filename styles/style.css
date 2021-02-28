@@ -1,0 +1,14 @@
+.row-table img {
+  width: 100%;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body img {
+  width: 50%;
+  border-radius: 1em;
+  margin: 2em 0em;
+}
+/*# sourceMappingURL=style.css.map */
