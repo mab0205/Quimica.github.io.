@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Tabela Periódica</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Trabalho de Química</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Tabela Periódica</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="conversao.html">Conversão Mássica</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="" id="form-conversao">
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="molRadio" value="mol" checked>
+                                    <label class="form-check-label" for="molRadio">
+                                        Mols para gramas
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="radios" id="gramaRadio" value="grama">
+                                    <label class="form-check-label" for="gramaRadio">
+                                        Gramas para mols
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="form-group">
+                                    <label for="qtd">Quantidade:</label>
+                                    <input type="text"class="form-control" name="qtd" id="qtd" placeholder="Quantidade de mol ou grama" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <h3>Selecione um elemento ou forme uma substância:</h3><br>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <div class="form-group">
+                                    <label for="qtdMol">Quantidade de mols:</label>
+                                    <input type="number" min="1" max="99" class="form-control" name="qtdMol" id="qtdMol" placeholder="Quantidade de mols">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="elemento1">Elemento 1</label>
+                                <select name="elemento1" id="elemento1" class="form-control">
+                                    <option value="H" selected>H</option>
+                                    <option value="He">He</option>
+                                    <option value="Li">Li</option>
+                                    <option value="Be">Be</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="N">N</option>
+                                    <option value="O">O</option>
+                                    <option value="F">F</option>
+                                    <option value="Ne">Ne</option>
+                                    <option value="Na">Na</option>
+                                    <option value="Mg">Mg</option>
+                                    <option value="Al">Al</option>
+                                    <option value="Si">Si</option>
+                                    <option value="P">P</option>
+                                    <option value="S">S</option>
+                                    <option value="Cl">Cl</option>
+                                    <option value="Ar">Ar</option>
+                                    <option value="K">K</option>
+                                    <option value="Ca">Ca</option>
+                                    <option value="Sc">Sc</option>
+                                    <option value="Ti">Ti</option>
+                                    <option value="V">V</option>
+                                    <option value="Cr">Cr</option>
+                                    <option value="Mn">Mn</option>
+                                    <option value="Fe">Fe</option>
+                                    <option value="Co">Co</option>
+                                    <option value="Ni">Ni</option>
+                                    <option value="Cu">Cu</option>
+                                    <option value="Zn">Zn</option>
+                                    <option value="Ga">Ga</option>
+                                    <option value="Ge">Ge</option>
+                                    <option value="As">As</option>
+                                    <option value="Se">Se</option>
+                                    <option value="Br">Br</option>
+                                    <option value="Kr">Kr</option>
+                                    <option value="Rb">Rb</option>
+                                    <option value="Sr">Sr</option>
+                                    <option value="Y">Y</option>
+                                    <option value="Zr">Zr</option>
+                                    <option value="Nb">Nb</option>
+                                    <option value="Mo">Mo</option>
+                                    <option value="Tc">Tc</option>
+                                    <option value="Ru">Ru</option>
+                                    <option value="Rh">Rh</option>
+                                    <option value="Pd">Pd</option>
+                                    <option value="Ag">Ag</option>
+                                    <option value="Cd">Cd</option>
+                                    <option value="In">In</option>
+                                    <option value="Sn">Sn</option>
+                                    <option value="Sb">Sb</option>
+                                    <option value="Te">Te</option>
+                                    <option value="I">I</option>
+                                    <option value="Xe">Xe</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <div class="form-group">
+                                    <label for="qtdAtomos1">Qtd. de átomos</label>
+                                    <input type="number" min="1" max="20" class="form-control" name="qtdAtomos1" id="qtdAtomos1" placeholder="Qtd. de átomos">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="elemento2">Elemento 2</label>
+                                <select name="elemento2" id="elemento2" class="form-control">
+                                    <option value="" selected>--</option>
+                                    <option value="H">H</option>
+                                    <option value="He">He</option>
+                                    <option value="Li">Li</option>
+                                    <option value="Be">Be</option>
+                                    <option value="B">B</option>
+                                    <option value="C">C</option>
+                                    <option value="N">N</option>
+                                    <option value="O">O</option>
+                                    <option value="F">F</option>
+                                    <option value="Ne">Ne</option>
+                                    <option value="Na">Na</option>
+                                    <option value="Mg">Mg</option>
+                                    <option value="Al">Al</option>
+                                    <option value="Si">Si</option>
+                                    <option value="P">P</option>
+                                    <option value="S">S</option>
+                                    <option value="Cl">Cl</option>
+                                    <option value="Ar">Ar</option>
+                                    <option value="K">K</option>
+                                    <option value="Ca">Ca</option>
+                                    <option value="Sc">Sc</option>
+                                    <option value="Ti">Ti</option>
+                                    <option value="V">V</option>
+                                    <option value="Cr">Cr</option>
+                                    <option value="Mn">Mn</option>
+                                    <option value="Fe">Fe</option>
+                                    <option value="Co">Co</option>
+                                    <option value="Ni">Ni</option>
+                                    <option value="Cu">Cu</option>
+                                    <option value="Zn">Zn</option>
+                                    <option value="Ga">Ga</option>
+                                    <option value="Ge">Ge</option>
+                                    <option value="As">As</option>
+                                    <option value="Se">Se</option>
+                                    <option value="Br">Br</option>
+                                    <option value="Kr">Kr</option>
+                                    <option value="Rb">Rb</option>
+                                    <option value="Sr">Sr</option>
+                                    <option value="Y">Y</option>
+                                    <option value="Zr">Zr</option>
+                                    <option value="Nb">Nb</option>
+                                    <option value="Mo">Mo</option>
+                                    <option value="Tc">Tc</option>
+                                    <option value="Ru">Ru</option>
+                                    <option value="Rh">Rh</option>
+                                    <option value="Pd">Pd</option>
+                                    <option value="Ag">Ag</option>
+                                    <option value="Cd">Cd</option>
+                                    <option value="In">In</option>
+                                    <option value="Sn">Sn</option>
+                                    <option value="Sb">Sb</option>
+                                    <option value="Te">Te</option>
+                                    <option value="I">I</option>
+                                    <option value="Xe">Xe</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <div class="form-group">
+                                    <label for="qtdAtomos2">Qtd. de átomos</label>
+                                    <input type="number" min="1" max="20" class="form-control" name="qtdAtomos2" id="qtdAtomos2" placeholder="Qtd. de átomos" disabled>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-12">
+                                <button type="submit" name="submit" class="btn btn-primary">Calcular</button>
+                            </div>
+                        </div>                        
+                    </form>
+                </div>
+
+                <div class="col-md-6">
+                    <h1>Fórmula:</h1>
+                    <p class="text-primary resultado-final" id="formula">--</p>
+                    <hr>
+                    <h1>Massa molar:</h1>
+                    <p class="text-primary resultado-final" id="massaMolar">--</p>
+                    <hr>
+                    <h1>Resultado:</h1>
+                    <p class="text-primary resultado-final" id="resultado">--</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="scripts/Controller.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
