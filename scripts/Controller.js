@@ -1,3 +1,8 @@
+/**
+ * @author André Zambroni Riedel, João Pedro Cunha Guska, Martin Ávila Buitrón, Samuel Damiani Frigotto
+ * @RA 2264900, 2264994, 2274183, 2266113
+ * @desc código do Controller do site (regras de negócio)
+ */
 class Controller {
     constructor() {
         this.formEl = document.getElementById('form-conversao');
@@ -103,15 +108,15 @@ class Controller {
             this.dados.qtdMol = 1;
         }
         if (this.dados.elemento1 !== '' && this.dados.qtdAtomos1 == '') {
-            /* REVIEW caso o usuário não tenha inserido a quantidade de átomos do elemento 1 */
+            /* caso o usuário não tenha inserido a quantidade de átomos do elemento 1 */
             this.dados.qtdAtomos1 = 1;
         }
         if (this.dados.elemento2 !== '' && this.dados.qtdAtomos2 == '') {
-            /* REVIEW caso o usuário não tenha inserido a quantidade de átomos do elemento 2 */
+            /* caso o usuário não tenha inserido a quantidade de átomos do elemento 2 */
             this.dados.qtdAtomos2 = 1;
         }
         if (this.dados.elemento2 == '') {
-            /* REVIEW caso o usuário não tenha escolhido um segundo elemento, o valor da quantidade será zero */
+            /* caso o usuário não tenha escolhido um segundo elemento, o valor da quantidade será zero */
             this.dados.qtdAtomos2 = 0;
         }
     }
